@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  height: 30px;
+  background-color: #00b4d8;
+  width: 0%;
+  transition: width 0.5s;
+}
+
+#progress-text {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/* Garden Grid */
+.garden-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.plant {
+  text-align: center;
+}
+
+.plant img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Stats Section */
+#hydration-chart {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Settings Section */
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+  margin-left: 0.5rem;
+}
+
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
